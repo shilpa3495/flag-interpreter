@@ -1,0 +1,40 @@
+body {
+  background: black;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.flag-interpreter-container {
+  border: 1px solid black;
+  width: 70%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  background: white;
+  display: grid;
+  align-content: center;
+  padding: 30px;
+}
+.flag-interpreter-container input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 2em;
+  width: 70%;
+  margin: 0 auto;
+}
+.flag-interpreter-container .flagname-text {
+  font-size: 1.5em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 1.5;
+  color: #14847b;
+  font-weight: bold;
+}
+.svg-container .flag-svg {
+  font-size: 3em;
+  padding-left: 10px;
+  cursor: pointer;
+}
